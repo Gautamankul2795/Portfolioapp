@@ -1,0 +1,545 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AG</title>
+    <!--Main site css lib-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="{%static 'css/main.css'%}" />
+    <!--End Main site css lib-->
+</head>
+
+<body>
+    <!-- header area -->
+    <header id="header">
+        <div class="row m-0">
+            <div class="col-3 bgcolor-black">
+                <nav class="primary-nav navbar-expand-md">
+                    <div class="site-title text-center text-light py-5">
+                        <a href="/home/" class="navbar-brand font-staat font-size-40">AG</a>
+                        <p class="description text-uppercase font-os">Gautam Ankul</p>
+                    </div>
+                    <div class="d-flex flex-column">
+                        <a href="#home" class="nav-item nav-link text-white-50 font-os font-size-16 active">Home</a>
+                        <a href="#about_me"
+                            class="nav-item nav-link text-white-50 font-os font-size-16 active">About</a>
+                        <a href="#services"
+                            class="nav-item nav-link text-white-50 font-os font-size-16 active">Services</a>
+                        <a href="#portfolio"
+                            class="nav-item nav-link text-white-50 font-os font-size-16 active">Portfolio</a>
+                        <a href="#news" class="nav-item nav-link text-white-50 font-os font-size-16 active">News</a>
+                        <a href="#footer" class="nav-item nav-link text-white-50 font-os font-size-16 active">Contact
+                            Us</a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <button class="toggle-button">
+            <span class="fas fa-bars fa-2x"></span>
+        </button>
+        <div class="social">
+            <span class="mr-3"><i class="fab fa-facebook-f"></i></span>
+            <span class="mr-3"><i class="fab fa-twitter"></i></span>
+            <span class="mr-3"><i class="fab fa-instagram"></i></span>
+            <span class="mr-3"><i class="fab fa-youtube"></i></span>
+        </div>
+    </header>
+    <!-- #header area -->
+    <main id="site-main">
+        <div class="row m-0">
+            <div class="col-md-9 offset-md-3 px-0">
+                <!-- site-banner area -->
+                <section class="site-banner" id="home">
+                    <div class="banner-area">
+                        <div class="author text-center">
+                            <div class="author-img"></div>
+                            <h1 class="text-white font-staat font-size-40 text-uppercase py-3">
+                                Gautam Ankul
+                            </h1>
+                            <h5 class="text-white font-ram font-size-27">
+                                I am <span id="typed"></span>
+                            </h5>
+                        </div>
+                    </div>
+                </section>
+                <!-- #site-banner area -->
+                <!-- about me area -->
+                <section class="about px-4 my-5" id="about_me">
+                    <div class="me py-5">
+                        <h5 class="text-uppercase font-os font-size-16 text-muted">
+                            information
+                        </h5>
+                        <h1 class="text-uppercase font-staat font-size-34">About Me</h1>
+                    </div>
+                    <div class="row m-2">
+                        <div class="col-sm-4 pl-0">
+                            <div class="swiper-container">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="imgBx">
+                                            <img src="{%static 'PortfolioApp/gautamankul.png'%}" />
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="imgBX">
+                                            <img src="{%static 'PortfolioApp/Gautam.png'%}" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <h6 class="text-uppercase font-os font-size-16 text-muted">
+                                About Me
+                            </h6>
+                            <h5 class="font-ram font-size-20 py-2">
+                                I'm Gautam Ankul & <span id="typed_2"></span>
+                            </h5>
+                            <p class="font-ram text-black-50 py-2">
+                                Hi, My Full Name Is Ankul Gautam. I am Professional Software Developer,Web
+                                Developer,Tester and Bug Bounter.I'm interested in all kinds of visual communication,
+                                but my major focus is on Data Scientist, Artificial Intelligence Developer. <br>I also
+                                have skills in other fields like branding, UX Designing,Desktop Application.I'm Love
+                                Programming and Hacking and when i'm with this I fell Happly.
+                            </p>
+                            <div class="d-flex flex-row flex-wrap justify-content-between py-4">
+                                <div class="d-flex flex-column">
+                                    <p class="font-ram">
+                                        <b>Birthday: </b><span class="text-black-50">27,November 1995</span>
+                                    </p>
+                                    <p class="font-ram">
+                                        <b>Mail: </b><span class="text-black-50">ankulg2795@gmail.com</span>
+                                    </p>
+                                    <p class="font-ram">
+                                        <b>Phone: </b><span class="text-black-50">+91 6390454267</span>
+                                    </p>
+                                </div>
+                                <div class="d-flex flex-column">
+                                    <p class="font-ram">
+                                        <b>Degree: </b><span class="text-black-50">Bachleor</span>
+                                    </p>
+                                    <p class="font-ram">
+                                        <b>Github: </b><span class="text-black-50">Gautamankul2795</span>
+                                    </p>
+                                    <p class="font-ram">
+                                        <b>Instagram: </b><span class="text-black-50">gautam__ankul</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <button class="btn btn-dark text-uppercase mr-3">
+                                <a href='#footer'>Hire ME</a>
+                            </button>
+                            <button class="btn btn-dark text-uppercase mr-3">
+                                <a href="https://drive.google.com/file/d/1zl2GiB6JGo_0uHIeISPiQxvkpFjbfQ7d/view?usp=sharing"
+                                    download>Download CV</a>
+                            </button>
+                        </div>
+                    </div>
+                </section>
+                <!-- #about me area -->
+                <!-- ability -->
+                <section class="skill px-4 py-5 bg-light" id="services">
+                    <div class="ability py-3">
+                        <h5 class="text-uppercase font-os font-size-16 text-muted">
+                            Ability
+                        </h5>
+                        <h1 class="text-uppercase font-staat font-size-34">My skills</h1>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 pl-4">
+                            <p class="font-ram font-size-16 text-black-50 pb-3">
+                                I have Professional skills and Knowledge in Software Development .In which i have worked
+                                Databases Management,UI/UX Design and Backend Development .I can find the bugs in
+                                applications and
+                                I have Data structure so i can easily handle dataflow ,transaction.
+                            </p>
+                            <p class="font-ram font-size-16 text-black-50">
+                                And All of that,I have best Management skills and I'm quick learner and ready to take
+                                new challeges
+                                to perform better.I am provide the reliable software with good content therfore client
+                                run easilly software and
+                                save from crisis.
+                            </p>
+                            <p class="font-ram font-size-16 text-black-50">
+                                And I am passionate to my work and my final goal is i'll become a Artificial
+                                Intelligence Developer
+                                Or Data Scientist.
+                            </p>
+                        </div>
+                        <div class="col-sm-6 bars">
+                            <div class="bar-1 mb-4">
+                                <div class="d-flex flex-row justify-content-between">
+                                    <p class="font-ram font-size-16">Python</p>
+                                    <span class="font-ram font-size-16">90%</span>
+                                </div>
+                                <div class="progress" style="height: 3px;">
+                                    <div class="progress-bar bgcolor-black" role="progressbar" style="width: 90%;">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bar-1 mb-4">
+                                <div class="d-flex flex-row justify-content-between">
+                                    <p class="font-ram font-size-16">Django</p>
+                                    <span class="font-ram font-size-16">80%</span>
+                                </div>
+                                <div class="progress" style="height: 3px;">
+                                    <div class="progress-bar bgcolor-black" role="progressbar" style="width: 80%;">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bar-1 mb-4">
+                                <div class="d-flex flex-row justify-content-between">
+                                    <p class="font-ram font-size-16">MySql</p>
+                                    <span class="font-ram font-size-16">70%</span>
+                                </div>
+                                <div class="progress" style="height: 3px;">
+                                    <div class="progress-bar bgcolor-black" role="progressbar" style="width: 70%;">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bar-1 mb-4">
+                                <div class="d-flex flex-row justify-content-between">
+                                    <p class="font-ram font-size-16">JavaScript</p>
+                                    <span class="font-ram font-size-16">50%</span>
+                                </div>
+                                <div class="progress" style="height: 3px;">
+                                    <div class="progress-bar bgcolor-black" role="progressbar" style="width: 50%;">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bar-1 mb-4">
+                                <div class="d-flex flex-row justify-content-between">
+                                    <p class="font-ram font-size-16">Web Design (Html5,CSS3,Bootstrap)</p>
+                                    <span class="font-ram font-size-16">80%</span>
+                                </div>
+                                <div class="progress" style="height: 3px;">
+                                    <div class="progress-bar bgcolor-black" role="progressbar" style="width: 80%;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- #ability -->
+                <!-- services -->
+                <section class="services-area px-4 py-5">
+                    <div class="do py-5">
+                        <h5 class="text-uppercase font-os font-size-16 text-muted">
+                            What i Do
+                        </h5>
+                        <h1 class="text-uppercase font-staat font-size-34">Services</h1>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 col-sm-6 mb-4 text-center">
+                            <div class="panel border p-4">
+                                <span class="icon text-secondary"><i class="fas fa-code fa-3x"></i></span>
+                                <h4 class="font-ram py-4">Software Development</h4>
+                                <p class="font-ram font-size-16 text-black-50">
+                                    literally,I focus client requriment in software without crisis and run smoothly
+                                    built minimum cost.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 mb-4 text-center">
+                            <div class="panel border p-4">
+                                <span class="icon text-secondary"><i class="fas fa-globe fa-3x"></i></span>
+                                <h4 class="font-ram py-4">Web Development</h4>
+                                <p class="font-ram font-size-16 text-black-50">
+                                    In which UI is user intracting not complex desingning must attractive
+                                    all fuctionality proper worked.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 mb-4 text-center">
+                            <div class="panel border p-4">
+                                <span class="icon text-secondary"><i class="fas fa-database fa-3x"></i></span>
+                                <h4 class="font-ram py-4">DataBase Management</h4>
+                                <p class="font-ram font-size-16 text-black-50">
+                                    Data Handling ,data Analysis must important design data modeling processespredicate
+                                    models .
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 mb-4 text-center">
+                            <div class="panel border p-4">
+                                <span class="icon text-secondary"><i class="fas fa-bug fa-3x"></i></span>
+                                <h4 class="font-ram py-4">Bug Bounty</h4>
+                                <p class="font-ram font-size-16 text-black-50">
+                                    It's frist step of Hacking.find applictaions bugs threfore crisis,faliure
+                                    occures and resolve.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 mb-4 text-center">
+                            <div class="panel border p-4">
+                                <span class="icon text-secondary"><i class="fas fa-mobile-alt fa-3x"></i></span>
+                                <h4 class="font-ram py-4">Fully Responsive</h4>
+                                <p class="font-ram font-size-16 text-black-50">
+                                    Make responsive application and software who proper worked with it's feature
+                                    functionality and easy to run.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 mb-4 text-center">
+                            <div class="panel border p-4">
+                                <span class="icon text-secondary"><i class="fas fa-chart-line fa-3x"></i></span>
+                                <h4 class="font-ram py-4">Data Analysis</h4>
+                                <p class="font-ram font-size-16 text-black-50">
+                                    Process of cleaning,transforming,and modeling data to discover useful info for
+                                    business decision-making.
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- #services -->
+                <!--Counter section-->
+                <section class="reference bg-light py-5 px-4">
+                    <div class="container counter-section">
+                        <div class="row text-center">
+                            <div class="col-md-3">
+                                <div class="icon-box">
+                                    <i class="fas fa-briefcase"></i>
+                                </div>
+                                <h2><span class="counter">60</span></h2>
+                                <p>PROJECTS COMPLETED</p>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="icon-box">
+                                    <i class="fas fa-users"></i>
+                                </div>
+                                <h2><span class="counter">50</span></h2>
+                                <p>TOTAL CLIENTS</p>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="icon-box">
+                                    <i class="fas fa-trophy"></i>
+                                </div>
+                                <h2><span class="counter">10</span></h2>
+                                <p>AWARD WON</p>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="icon-box">
+                                    <i class="fas fa-calendar"></i>
+                                </div>
+                                <h2><span class="counter">1</span></h2>
+                                <p>YEARS OF EXPERIENCE</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- End Counter Section -->
+                <!-- work -->
+                <section class="work py-5 px-4" id="portfolio">
+                    <div class="py-3">
+                        <h5 class="text-uppercase font-os font-size-16 text-muted">
+                            Porfolio
+                        </h5>
+                        <h1 class="text-uppercase font-staat font-size-34">
+                            Creative Work
+                        </h1>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4 pb-4">
+                            <img src="{%static 'PortfolioApp/videoedit.jpg'%}" alt="work1" class="img-fluid" />
+                        </div>
+                        <div class="col-sm-4 pb-4">
+                            <img src="{%static 'PortfolioApp/ecommerce.jpg'%}" alt="work1" class="img-fluid" />
+                        </div>
+                        <div class="col-sm-4 pb-4">
+                            <img src="{%static 'PortfolioApp/travel.jpg'%}" alt="work1" class="img-fluid" />
+                        </div>
+                        <div class="col-sm-4 pb-4">
+                            <img src="{%static 'PortfolioApp/data.jpg'%}" alt="work1" class="img-fluid" />
+                        </div>
+                        <div class="col-sm-4 pb-4">
+                            <img src="{%static 'PortfolioApp/collage.jpg'%}" alt="work1" class="img-fluid" />
+                        </div>
+                        <div class="col-sm-4 pb-4">
+                            <img src="{%static 'PortfolioApp/type.jpg'%}" alt="work1" class="img-fluid" />
+                        </div>
+                    </div>
+                </section>
+                <!-- #work -->
+                <!-- news -->
+                <section class="news py-5 px-4 bg-light" id="news">
+                    <div class="py-3">
+                        <h5 class="text-uppercase font-os font-size-16 text-muted">
+                            Read
+                        </h5>
+                        <h1 class="text-uppercase font-staat font-size-34">
+                            Latest News
+                        </h1>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4 my-3">
+                            <div class="card border-0">
+                                <img src="{%static 'PortfolioApp/covid19.jpg'%}" alt="news1" class="card-img-top" />
+                                <div class="card-body">
+                                    <p class="font-ram font-size-16 text-black-50">
+                                        in <b class="text-uppercase text-dark">lifestyle</b>
+                                    </p>
+                                    <h5 class="card-title font-ram">COVID-19 Tracker</h5>
+                                    <p class="cart-text text-black-50">
+                                        Python officially,Launch the COVID-19Py package for tracking corona-virus
+                                        affected pepole around the world..it very help ful for easy access to up-to-date
+                                        Coronavirus cases data.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 my-3">
+                            <div class="card border-0">
+                                <img src="{%static 'PortfolioApp/download.png'%}" alt="news1" class="card-img-top" />
+                                <div class="card-body">
+                                    <p class="font-ram font-size-16 text-black-50">
+                                        in <b class="text-uppercase text-dark">Window's</b>
+                                    </p>
+                                    <h5 class="card-title font-ram">CSS Tech</h5>
+                                    <p class="cart-text text-black-50">
+                                        98.css comes with several pre-styled components, including buttons, checkboxes,
+                                        textboxes, a dropdown menu, and a window among others.
+                                        This CSS library makes it easy to build Windows 98-inspired UI's .
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 my-3">
+                            <div class="card border-0">
+                                <img src="{%static 'PortfolioApp/jai.jpg'%}" alt="news1" class="card-img-top" />
+                                <div class="card-body">
+                                    <p class="font-ram font-size-16 text-black-50">
+                                        in <b class="text-uppercase text-dark">Web Search</b>
+                                    </p>
+                                    <h5 class="card-title font-ram">Dark wed</h5>
+                                    <p class="cart-text text-black-50">
+                                        Python are provide the scarp data of Dark and Deep web which not open in normal
+                                        browser..OnionScan that is used to scan hidden services in the dark web looking
+                                        for potential data leaks.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- #news -->
+                <footer id="footer" class="pt-5 px-3">
+                    <div id="contact_us">
+                        <div class="py-3 px-2">
+                            <h5 class="text-uppercase font-os font-size-16 text-muted">
+                                Location
+                            </h5>
+                            <h1 class="text-uppercase font-staat font-size-34">
+                                Contact Us
+                            </h1>
+                        </div>
+                        <div class="row py-5">
+                            <div class="col-sm-6">
+                                <h6 class="text-uppercase font-ram font-size-16 text-dark">
+                                    ASP company Inc.
+                                </h6>
+                                <p class="font-ram w-50 font-size-16 text-black-50">
+                                    This is my future company,i'll Establish early this is responsiable for software
+                                    development and focus new technology like Blockchaining,5G Communication.
+                                    <p class="font-ram font-size-16 text-black-50 pt-3">
+                                        PHONE: +916390454267
+                                    </p>
+                                    <p class="font-ram font-size-16 text-black-50">
+                                        EMAIL: ankulg2795@gmail.com
+                                    </p>
+                                    <p class="font-ram font-size-16 text-black-50">
+                                        ADDRESS: Badlapur,Jaunpur,India.
+                                    </p>
+                            </div>
+                            <div class="col-sm-6 py-4 px-4">
+                                <h6 class="text-uppercase font-ram font-size-16">
+                                    Get in touch
+                                </h6>
+                                <!--form-->
+                                <form action="/home/" class="py-3" method="post">
+                                    {% csrf_token %}
+                                    <div class="row">
+                                        <div class="col">
+                                            <input type="text" name="name" id="name" class="form-control"
+                                                placeholder="Name" required />
+                                        </div>
+                                        <div class="col">
+                                            <input type="email" name="email" id="email" class="form-control"
+                                                placeholder="Email" required />
+                                        </div>
+                                    </div>
+                                    <textarea name="message" id="message" cols="30" rows="3" class="form-control my-4"
+                                        placeholder="Message" required></textarea>
+                                    <div class="wrapper">
+                                       <button type="submit"> 
+                                            <span>Send Message Me</span>
+                                            <div class="wave"></div>
+                                        </button>
+
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="row bg-light py-5">
+                            <div class="col-sm-4 my-5 text-center">
+                                <h6 class="font-ram font-size-16 text-black-50">
+                                    &copy;2020 Gautam Ankul. All rights reserved
+                                </h6>
+                            </div>
+                            <div class="col-sm-4 my-4 text-center">
+                                <div class="footer-title">
+                                    <a href="/home/" class="navbar-brand font-staat font-size-40 text-dark">AG</a>
+                                    <p class="description font-os font-size-16 text-black-50 text-uppercase">
+                                        Gautam Ankul
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 my-5 text-center">
+                                <a href="https://www.facebook.com/gautam.ankul.9"><span class="mr-3"><i
+                                            class="fab fa-facebook-f"></i></span></a>
+                                <a href="https://twitter.com/GautamAnkul3"><span class="mr-3"><i
+                                            class="fab fa-twitter"></i></span></a>
+                                <a href="https://www.instagram.com/gautam__ankul/"><span class="mr-3"><i
+                                            class="fab fa-instagram"></i></span></a>
+                                <a href="https://www.linkedin.com/in/ankul-gautam-412739171/"><span class="mr-3"><i
+                                            class="fab fa-linkedin"></i></span></a>
+                                <a href="https://github.com/Gautamankul2795"><span class="mr-3"><i
+                                            class="fab fa-github"></i></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </main>
+    <!--Main site javascript lib-->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js"
+        integrity="sha256-MAgcygDRahs+F/Nk5Vz387whB4kSK9NXlDN3w58LLq0=" crossorigin="anonymous"></script>
+    <!--swiper lib-->
+    <script src="https://unpkg.com/swiper/js/swiper.js"></script>
+    <script src="{%static 'js/typed.min.js'%}"></script>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="{%static 'js/jquery.waypoints.min.js'%}"></script>
+    <script src="{%static 'js/jquery.counterup.min.js'%}"></script>
+    <script src="{%static 'js/main.js'%}"></script>
+    <!--End Main site javascript lib-->
+</body>
+
+</html>
